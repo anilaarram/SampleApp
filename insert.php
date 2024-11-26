@@ -5,6 +5,7 @@ $username = getenv('AZURE_MYSQL_USERNAME');   // Database username
 $password = getenv('AZURE_MYSQL_PASSWORD');   // Database password
 $dbname = getenv('AZURE_MYSQL_DBNAME');     // Database name
 
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
